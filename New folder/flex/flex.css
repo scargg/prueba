@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+section{
+    position: relative;
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background-color: gray;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    border: 0.2rem solid red;
+    width: 10rem;
+    height: 10rem;
+    color: white;
+}
+.item p{
+    align-self: center
+}
+.item_a{
+    position: absolute;
+    align-self: center;
+    justify-self: start;
+}
+
+

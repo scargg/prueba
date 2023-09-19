@@ -1,0 +1,12 @@
+.img-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+    gap:20px;
+}
+.blog-img {
+    width: 100%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
